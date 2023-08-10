@@ -1,0 +1,9 @@
+[submodule "external/tp_stubz"]
+	path = external/tp_stubz
+	url = https://github.com/uyjulian/tp_stubz.git
+	branch = mingw
+[submodule "external/plthook"]
+	path = external/plthook
+	url = https://github.com/uyjulian/plthook.git
+	branch = uyjworking
+	ignore = dirty
