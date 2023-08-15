@@ -7,11 +7,11 @@
 //                                         //
 /////////////////////////////////////////////
 
+#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
+#endif
 #include <windows.h>
-#define MIDL_user_allocate MIDL_user_allocate_workaround
 #include <objidl.h>
-#undef MIDL_user_allocate
 #include "tp_stub.h"
 #include "plthook.h"
 #include <vector>
